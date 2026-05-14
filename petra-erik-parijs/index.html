@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petra &amp; Erik Paris — Support &amp; Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue-deep:   #12214a;
+      --blue-mid:    #1c3266;
+      --blue-light:  #2a4a8a;
+      --gold:        #c8900a;
+      --gold-light:  #e8b040;
+      --gold-pale:   #f5dfa0;
+      --cream:       #fdf8f0;
+      --cream-dark:  #f3ece0;
+      --text:        #1a1a2e;
+      --text-muted:  #5a5a6e;
+    }
+
+    body {
+      font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    /* ── Header ─────────────────────────────────────────── */
+
+    header {
+      background: linear-gradient(160deg, var(--blue-deep) 0%, var(--blue-mid) 60%, var(--blue-light) 100%);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Subtle swirl texture — pure CSS, no images */
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 20% 30%, rgba(200,144,10,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 60% at 80% 70%, rgba(42,74,138,0.4) 0%, transparent 70%),
+        radial-gradient(ellipse 30% 30% at 70% 20%, rgba(232,176,64,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    header .icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      display: block;
+      margin: 0 auto 1.25rem;
+      position: relative;
+      box-shadow: 0 6px 28px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.01em;
+      margin-bottom: 0.4rem;
+      position: relative;
+    }
+
+    header .subtitle {
+      font-size: 0.9rem;
+      color: var(--gold-pale);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 600;
+      position: relative;
+    }
+
+    /* Gold rule under header */
+    .gold-rule {
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
+    }
+
+    /* ── Body ────────────────────────────────────────────── */
+
+    main {
+      max-width: 660px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--blue-deep);
+      margin-bottom: 0.9rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--gold-pale);
+    }
+
+    p {
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 0.85rem;
+    }
+
+    ul {
+      margin: 0.25rem 0 0.9rem 1.4rem;
+    }
+
+    ul li {
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+
+    ul li::marker {
+      color: var(--gold);
+    }
+
+    strong {
+      color: var(--blue-deep);
+      font-weight: 600;
+    }
+
+    /* ── Contact box ─────────────────────────────────────── */
+
+    .contact-box {
+      background: var(--blue-deep);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .contact-box .mail-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .contact-box a {
+      color: var(--gold-light);
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .contact-box a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    /* ── Footer ──────────────────────────────────────────── */
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cream-dark);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img class="icon" src="icon.png" alt="Petra &amp; Erik Paris">
+    <h1>Petra &amp; Erik Paris</h1>
+    <p class="subtitle">Support &amp; Privacy Policy</p>
+  </header>
+
+  <div class="gold-rule"></div>
+
+  <main>
+
+    <section>
+      <h2>About the app</h2>
+      <p>
+        Petra &amp; Erik Paris is a personal guide to Paris by Petra and Erik —
+        two Amsterdammers with an apartment in le Marais. The app contains their
+        curated list of favourite places: restaurants, bars, shops, cultural
+        venues, and outdoor tips. No ads, no accounts, no nonsense.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy Policy</h2>
+
+      <p><strong>Data we collect: none.</strong> The app does not collect, store,
+      or transmit any personal information.</p>
+
+      <ul>
+        <li>No account or registration required</li>
+        <li>No analytics or usage tracking</li>
+        <li>No advertising</li>
+        <li>No third-party SDKs that collect data</li>
+      </ul>
+
+      <p><strong>Content updates.</strong> The app fetches a content file from a
+      public URL on GitHub to keep recommendations up to date. No personal data
+      is included in this request — it is a plain download with no identifying
+      information. The content is cached on your device for offline use.</p>
+
+      <p><strong>Location.</strong> The app asks for access to your location to
+      show your position on the map. Your location is used only on your device
+      and is never sent to us or to any third party. You can use the app without
+      granting location access — you will simply not see your own position on
+      the map.</p>
+    </section>
+
+    <section>
+      <h2>Support</h2>
+      <p>For questions, feedback, or anything else, please get in touch:</p>
+      <div class="contact-box">
+        <span class="mail-icon">✉️</span>
+        <a href="mailto:supportaudiotour@gmail.com">supportaudiotour@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      Last updated: May 2026
+    </footer>
+
+  </main>
+
+</body>
+</html>
